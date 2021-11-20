@@ -20,7 +20,7 @@ img.addEventListener("touchstart", function(){
     audio.play();
 });
 
-img.addEventListener("touchmove", function(){
+img.addEventListener("touchend", function(){
     img.src = 'arona_1.png';
     audio.play();
 });
