@@ -1,7 +1,7 @@
 var img = document.getElementById("arona1");
 var count = document.getElementById("score");
 var score = 0;
-var audio = new Audio("sonic-ring.mp3");
+var audio = new Audio("pop.mp3");
 
 img.addEventListener('mousedown', function (){
     increaseScore();
