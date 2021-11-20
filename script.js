@@ -8,7 +8,7 @@ function increaseScore(){
     count.innerHTML = score;
 };
 
-img.addEventListener(('mousedown', 'touchstart'), function (){
+img.addEventListener(('mousedown', 'touchstart', 'click'), function (){
     increaseScore();
     img.src = 'arona_2.png';
     return audio.play();
