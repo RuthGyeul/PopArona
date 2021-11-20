@@ -3,7 +3,7 @@ var count = document.getElementById("score");
 var score = 0;
 var audio = new Audio("sonic-ring.mp3");
 
-img.addEventListener('mousedown', function (){\
+img.addEventListener('mousedown', function (){
     increaseScore();
     img.src = 'arona_2.jpeg';
     //audio.play();
