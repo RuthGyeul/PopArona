@@ -6,23 +6,23 @@ var audio = new Audio("sonic-ring.mp3");
 img.addEventListener('mousedown', function (){
     increaseScore();
     img.src = 'arona_2.jpeg';
-    //audio.play();
+    audio.play();
 });
 
 img.addEventListener('mouseup', function (){
     img.src = 'arona_1.jpeg';
-    //audio.play();
+    audio.play();
 });
 
 img.addEventListener("touchstart", function(){
     increaseScore();
     img.src = 'arona_2.jpeg';
-    //audio.play();
+    audio.play();
 });
 
 img.addEventListener("touchmove", function(){
     img.src = 'arona_1.jpeg';
-    //audio.play();
+    audio.play();
 });
 
 function increaseScore(){
