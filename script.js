@@ -1,4 +1,4 @@
-var img = document.getElementById("arona_1");
+var img = document.getElementById("arona_1.jpeg");
 var count = document.getElementById("score");
 var score = 0;
 var audio = new Audio("sonic-ring.mp3");
