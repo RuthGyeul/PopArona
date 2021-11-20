@@ -4,6 +4,7 @@ body {
   background: linear-gradient(to right, #ffefba, #ffffff);
   background-image: url("https://raw.githubusercontent.com/RuthGyeul/PopArona/main/loby1.jpeg");
   background-size: cover;
+  overflow-y: hidden;
   background-repeat: no-repeat;
 }
 .container{
