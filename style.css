@@ -27,5 +27,5 @@ p{
   color: white;
 }
 img {
-  display: inline-block;
+  pointer-events: auto;
 }
