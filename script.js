@@ -5,23 +5,23 @@ var audio = new Audio("pop.mp3");
 
 img.addEventListener('mousedown', function (){
     increaseScore();
-    img.src = 'arona_2.jpeg';
+    img.src = 'arona_2.png';
     audio.play();
 });
 
 img.addEventListener('mouseup', function (){
-    img.src = 'arona_1.jpeg';
+    img.src = 'arona_1.png';
     audio.play();
 });
 /*
 img.addEventListener("touchstart", function(){
     increaseScore();
-    img.src = 'arona_2.jpeg';
+    img.src = 'arona_2.png';
     audio.play();
 });
 
 img.addEventListener("touchmove", function(){
-    img.src = 'arona_1.jpeg';
+    img.src = 'arona_1.png';
     audio.play();
 });
 */
