@@ -3,26 +3,26 @@ var count = document.getElementById("score");
 var score = 0;
 var audio = new Audio("sonic-ring.mp3");
 
-img.addEventListener('mousedown', function (){
-    audio.play();
-    img.src = 'arona_2.jpeg';
+img.addEventListener('mousedown', function (){\
     increaseScore();
+    img.src = 'arona_2.jpeg';
+    audio.play();
 });
 
 img.addEventListener('mouseup', function (){
-    audio.play();
     img.src = 'arona_1.jpeg';
+    audio.play();
 });
 
 img.addEventListener("touchstart", function(){
-    audio.play();
-    img.src = 'arona_2.jpeg';
     increaseScore();
+    img.src = 'arona_2.jpeg';
+    audio.play();
 });
 
 img.addEventListener("touchmove", function(){
-    audio.play();
     img.src = 'arona_1.jpeg';
+    audio.play();
 });
 
 function increaseScore(){
