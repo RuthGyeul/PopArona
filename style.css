@@ -6,7 +6,10 @@ body {
   font-family: Nunito, sans-serif;
 }
 .container{
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 h1{
   font-size: 6.5em;
