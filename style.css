@@ -3,6 +3,7 @@ body {
   padding: 0%;
   background-image: url("https://raw.githubusercontent.com/RuthGyeul/PopArona/main/loby1.jpeg");
   background-size: contain;
+  font-family: Nunito, sans-serif;
 }
 .container{
   text-align: center;
