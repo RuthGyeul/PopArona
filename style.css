@@ -18,10 +18,3 @@ h1{
   -webkit-text-stroke: 2px black;
   color: white;
 }
-P{
-  font-size: 4em;
-  font-family: Nunito, sans-serif;
-  -webkit-text-stroke: 2px black;
-  color: white;
-  margin-bottom: 100%;
-}
