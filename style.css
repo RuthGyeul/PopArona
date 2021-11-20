@@ -27,6 +27,6 @@ p{
   color: white;
 }
 img {
-  //pointer-events: none;
+  #pointer-events: none;
   display: inline-block;
 }
