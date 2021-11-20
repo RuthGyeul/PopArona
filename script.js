@@ -14,6 +14,17 @@ img.addEventListener('mouseup', function (){
     img.src = 'arona_1.jpeg';
 });
 
+img.addEventListener("touchstart", function(){
+    audio.play();
+    img.src = 'arona_2.jpeg';
+    increaseScore();
+});
+
+img.addEventListener("touchmove", function(){
+    audio.play();
+    img.src = 'arona_1.jpeg';
+});
+
 function increaseScore(){
     score++;
     count.innerHTML = score;
