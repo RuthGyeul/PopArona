@@ -28,4 +28,4 @@ img.addEventListener("touchmove", function(){
 function increaseScore(){
     score++;
     count.innerHTML = score;
-}
+};
