@@ -5,19 +5,18 @@ window.onload = function(){
     var audio = new Audio("sonic-ring.mp3");
 
     img.addEventListener('mousedown', function (){
-        increaseScore();
-        img.src = 'arona_2.jpeg';
         audio.play();
+        img.src = 'arona_2.jpeg';
+        increaseScore();
     });
 
     img.addEventListener('mouseup', function (){
-        img.src = 'arona_1.jpeg';
         audio.play();
+        img.src = 'arona_1.jpeg';
     });
 
     function increaseScore(){
         score++;
         count.innerHTML = score;
-
     }
 }
