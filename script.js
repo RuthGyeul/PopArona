@@ -3,28 +3,28 @@ var count = document.getElementById("score");
 var score = 0;
 var audio = new Audio("pop.mp3");
 
-img.addEventListener('mousedown', function (){
+img.addEventListener(('mousedown', 'touchstart'), function (){
     increaseScore();
     img.src = 'arona_2.png';
     audio.play();
 });
 
-img.addEventListener('mouseup', function (){
+img.addEventListener(('mouseup', 'touchend'), function (){
     img.src = 'arona_1.png';
     audio.play();
 });
-
-img.addEventListener("touchstart", function(){
+/*
+img.addEventListener('touchstart', function(){
     increaseScore();
     img.src = 'arona_2.png';
     audio.play();
 });
 
-img.addEventListener("touchend", function(){
+img.addEventListener('touchend', function(){
     img.src = 'arona_1.png';
     audio.play();
 });
-
+*/
 function increaseScore(){
     score++;
     count.innerHTML = score;
