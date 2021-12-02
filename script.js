@@ -9,9 +9,15 @@ function increaseScore(){
 };
 
 img.addEventListener(('mousedown', 'touchstart', 'click'), function (){
-    increaseScore();
-    img.src = 'arona_2.png';
-    return audio.play();
+    if (count) {
+        increaseScore();
+        img.src = 'arona_2.png';
+        return audio.play();
+    } else if (count == 50) {
+        alert('Login to Google Account');
+        //alert.button('login');
+        return;
+    }
 });
 
 img.addEventListener(('mouseup', 'touchend'), function (){
@@ -30,3 +36,5 @@ img.addEventListener('touchend', function(){
     return audio.play();
 });
 */
+
+
