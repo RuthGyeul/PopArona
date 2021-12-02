@@ -9,11 +9,11 @@ function increaseScore(){
 };
 
 img.addEventListener(('mousedown', 'touchstart', 'click'), function (){
-    if (count) {
+    if (count != 50) {
         increaseScore();
         img.src = 'arona_2.png';
         return audio.play();
-    } else if (count == 50) {
+    } if (count == 50) {
         alert('Login to Google Account');
         //alert.button('login');
         return;
